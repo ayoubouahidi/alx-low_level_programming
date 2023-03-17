@@ -2,9 +2,12 @@
 #include <time.h>
 #include<stdio.h>
 
-/* more headers goes there */
+/**
+ * main - Entry point
+ * description: wa check for number positif or negative
+ * Return: Always 0
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
