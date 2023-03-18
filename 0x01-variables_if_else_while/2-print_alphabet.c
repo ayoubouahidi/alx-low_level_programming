@@ -1,17 +1,17 @@
 #include <stdio.h>
-
 /**
- * main - prints the alphabet in lowercase,
- * followed by a new line
- * Return: Always 0 (Success)
- */
+  *main - entry point
+  *Description: print lowercase alphabet
+  *Return: always 0
+  */
 int main(void)
 {
-    char ch;
+    int i = 97;
 
-    for (ch = 'a'; ch <= 'z'; ch++)
+    while (i < 123)
     {
-        putchar(ch);
+        putchar(i);
+        i++;
     }
     putchar('\n');
     return (0);
