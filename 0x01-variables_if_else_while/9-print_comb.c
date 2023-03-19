@@ -2,7 +2,7 @@
 
 /**
  * main -Entry point
- * description: print number in single digit 
+ * description: print number in single digit
  * Return: Always 0
  */
 
