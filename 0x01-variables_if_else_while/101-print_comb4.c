@@ -19,14 +19,14 @@ int main(void)
 		{
 			for (z = 50; z <= 57; z++)
 			{
-				if ( z > m && m > n )
-				{	
+				if (z > m && m > n)
+				{
 					putchar(n);
 					putchar(m);
 					putchar(z);
-					
+
 					if (n != 55 || m != 56 || z != 57)
-					
+
 					{
 
 					putchar(',');
