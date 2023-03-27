@@ -1,6 +1,4 @@
 #include "main"
-#include<stdio.h>
-
 /**
  * main - check code
  * description: int as paramater
