@@ -2,7 +2,9 @@
 
 /**
  * Entry - point
- * descriprion: concatenates two strings
+ * _strcat - concat 2 string
+ * @dest:char
+ * @src:char
  * Return: Always 0;
  */
 
