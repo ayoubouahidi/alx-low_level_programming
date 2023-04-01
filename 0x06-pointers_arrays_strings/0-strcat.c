@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * Entry - point
  * _strcat - concat 2 string
  * @dest:char
  * @src:char
- * Return: Always 0;
+ * Return: char;
  */
 
 char *_strcat(char *dest, char *src)
