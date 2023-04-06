@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * prints_string - fonction like puts()
- * @s : input
+ * _print_rev_recursion - prints a string in reverse
+ * @s : the string to be printed
  * Return : Always 0
  */
 
