@@ -5,7 +5,7 @@
  * @s1 : first string
  * @s2 : second string
  * @n : index
- * Return : If the function fails, it should return NULL
+ * Return: If the function fails, it should return NULL
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
