@@ -1,23 +1,27 @@
 #include "main.h"
 
 /**
- * get_bit - fuction extract bit based on index
+ * get_bit - returns the value of a bit at a given
+ * index.
+ * @n: unsigned long int input.
+ * @index: index of the bit.
  *
- * @n: decimal number
- *
- * @index: bit index
- *
- * Return: -1 if fail , otherwise bit value
+ * Return: value of the bit.
  */
-
 int get_bit(unsigned long int n, unsigned int index)
 {
-	int bits;
+	unsigned int i;
 
-	if (index > 32)
-		return (-1);
+	if (n == 0 && index < 64)
+		return (0);
 
-	bits = (n >> index) & 1;
+	for (i = 0; i <= 63; n >>= 1, i++)
+	{
+		if (index == i)
+		{
+			return (n & 1);
+		}
+	}
 
-	return (bits);
+	return (-1);
 }
