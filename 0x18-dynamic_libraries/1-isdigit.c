@@ -1,4 +1,4 @@
-#include "main.h"
+/* #include "main.h"
 
 /**
  * _isdigit -  character is digit
@@ -15,3 +15,4 @@ int _isdigit(int c)
 	}
 	return (0);
 }
+ */
